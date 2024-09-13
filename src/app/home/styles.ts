@@ -15,6 +15,6 @@ export const styles = StyleSheet.create({
         paddingHorizontal: 24,
     },
     Input: {
-        marginBottom: -27, // pode ser apenas 27
+        marginBottom: 27, // pode ser apenas -27
     }
 })

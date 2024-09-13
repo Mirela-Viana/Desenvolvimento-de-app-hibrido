@@ -1,5 +1,4 @@
-import { Image, ImageProps, Text } from "react-native";
-import { View } from "react-native-reanimated/lib/typescript/Animated";
+import { Image, ImageProps, Text, View} from "react-native";
 import { styles } from "./styles";
 
 const variants = {
