@@ -1,8 +1,20 @@
 import { StyleSheet } from "react-native";
+import { theme } from "@/theme/index";
+import { Input } from "../components/input";
 
 export const styles = StyleSheet.create({
     container: {
         flex: 1,
         //justifyContent: "center"
+    },
+    header: {
+        width: "100%",
+        height: 132,
+        backgroundColor: theme.colors.blue,
+        justifyContent: "flex-end",
+        paddingHorizontal: 24,
+    },
+    Input: {
+        marginBottom: -27, // poder ser apenas 27
     }
 })
